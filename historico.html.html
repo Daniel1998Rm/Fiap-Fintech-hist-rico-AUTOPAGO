@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> AUTOPAGO </title>
+
+
+    <!-- chamada da css da bs -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+ 
+ <link rel="stylesheet" href="./css/styles.css">
+ 
+ 
+  </head>
+<body>
+
+</html>
+
+  
+
+    
+<!-- codigo de navegação -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-dark"data-bs-theme=dark>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">AUTOPAGO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Agendar</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link active" href="#" role="button" data-bs-toggle="" aria-expanded="false">
+            Histórico
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">html</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">CSS </a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Javascript</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Conta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Ajuda</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="Buscar">
+        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+    
+
+    
+  </div>
+</nav>
+
+
+<div class="container">
+
+  <h1 class="my-color display-3"> Histórico </h1>
+  
+
+  <p class="lead ">  A função do histórico no aplicativo AUTOPAGO é fornecer ao cliente um registro completo de todas as transações passadas. No histórico, o cliente poderá visualizar todas as transações que foram agendadas e concluídas com sucesso. Isso inclui as datas em que os pagamentos foram agendados, os beneficiários ou contas de destino, os valores envolvidos e o status de cada transação, como "concluído" ou "aguardando processamento". O histórico também pode exibir informações adicionais, como os métodos de pagamento utilizados, números de referência e detalhes específicos de cada transação. Em resumo, a área de histórico em um aplicativo de agendamento automático de pagamentos oferece ao cliente uma visão detalhada de suas atividades financeiras passadas, permitindo que ele acompanhe e gerencie suas transações com facilidade e confiança. </p>
+
+<a href=""class="btn  btn-danger ">Mais Informações</a>
+</div>
+  
+<div class="container">
+
+       <div class="row my-5">
+
+          <div class="col-sm-12 col-md-6 ">
+         <img src="./assets/imagens/teste-foto-finanças.jpg" alt="imagem finanças"
+         class="img-fluid">                
+          </div>
+          <div class="col-sm-12 col-md-6 ">
+         <img src="./assets/imagens/imagem-celular-.jpg" alt="imagem despesas"
+         class="img-fluid">                
+          </div>              
+       </div>
+
+
+      </div>
+</div>
+</div>
+
+  
+<div class="container form-group  ">
+ 
+  <h3 class="my-color2 display-4"> Acompanhe o seu Histórico </h3>
+<form id="dados" name="dados" method="post" action="">
+
+  <fieldset>
+    <legend > Selecione uma data </legend>
+    <label for="data"> </label>
+    <input type="date" id="data" class="form-group">
+  </fieldset>
+
+</form>
+
+<!-- acompanhamento do Histórico -->
+<div class="container my-5">
+  <h3 class="display-6 ">Exemplo de tabela ao selecionar uma data</h3>
+<table class="my-4 table table-striped table-bordered table-hover">
+  <thead class="text-center">
+      <tr>
+          <th>Despesa</th>
+          <th>Valor</th>
+          <th>Data de Vencimento</th>
+          <th>Data de Agendamento</th>
+      </tr>
+  </thead>
+  <tbody class="text-center">
+      <tr>
+          <th>Conta de Luz</th>
+          <td>R$ 100,00</td>
+          <td>10/06/2023</td>
+          <td>05/06/2023</td>
+      </tr>
+      <tr>
+          <th>Aluguel</th>
+          <td>R$ 1200,00</td>
+          <td>30/06/2023</td>
+          <td>25/06/2023</td>
+      </tr>
+      <tr>
+          <th>Plano de Celular </th>
+          <td> R$ 50,00</td>
+          <td>15/06/2023</td>
+          <td>12/06/2023</td>
+      </tr>
+      <tr>
+        <th>Internet</th>
+        <td>R$ 80,00</td>
+        <td>20/06/2023</td>
+        <td>18/06/2023</td>
+    </tr>
+    <tr>
+      <th>Seguro do Carro</th>
+      <td>R$ 150,00</td>
+      <td>05/07/2023</td>
+      <td>01/07/2023</td>
+  </tr>
+
+  </tbody>
+</table>
+</div>
+
+
+<!-- exibição dos cards -->
+<div class="container">
+  <h3 class="display-6 my-4 "> Descubra mais informações</h3>
+  <div class="row text-center">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+              <img src="./assets/imagens/pexels-nataliya-vaitkevich-6863515.jpg" class="card-img-top" alt="calendario rosa">
+              <div class="card-body">
+                  <h5 class="card-title">Recursos do AUTOPAGO</h5>
+                  <p class="card-text my-3"> Desfrute e aproveite os benefícios do aplicativo. 
+                  </p>
+                  <a href="#" class="btn btn-primary">Clique e conheça</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+              <img src="./assets/imagens/pexels-yan-krukau-8867482.jpg" class="card-img-top" alt="foto funcionários">
+              <div class="card-body">
+                  <h5 class="card-title">Suporte ao Cliente</h5>
+                  <p class="card-text my-3"> Caso tenha alguma dúvida entre em contato com o nosso suporte.
+                  </p>
+                  <a href="#" class="btn btn-primary">Clique e conheça</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+              <img src="./assets/imagens/pexels-andrew-neel-6633921.jpg" class="card-img-top" alt="imagem 3">
+              <div class="card-body">
+                  <h5 class="card-title">Baixe o aplicativo</h5>
+                  <p class="card-text my-3">Rápido e prático, baixe o aplicativo clicando no botão abaixo.
+                  </p>
+                  <a href="#" class="btn btn-primary">Clique e baixe</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
